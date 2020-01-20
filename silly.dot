@@ -1,0 +1,148 @@
+digraph "silly.dot" {
+ // Node definitions.
+ 0 [
+  label="github.com/openshift/cluster-openshift-apiserver-operator/cmd/cluster-openshift-apiserver-operator"
+  color=black
+ ];
+ 152 [
+  label="github.com/davecgh/go-spew/spew"
+  color=black
+ ];
+ 858 [
+  label="github.com/pkg/errors"
+  color=black
+ ];
+ 860 [
+  label="github.com/pmezard/go-difflib/difflib"
+  color=black
+ ];
+ 892 [
+  label="github.com/spf13/cobra"
+  color=black
+ ];
+ 897 [
+  label="github.com/spf13/pflag"
+  color=black
+ ];
+ 899 [
+  label="github.com/stretchr/testify/assert"
+  color=black
+ ];
+ 902 [
+  label="github.com/stretchr/testify/require"
+  color=black
+ ];
+ 904 [
+  label="go.uber.org/atomic"
+  color=black
+ ];
+ 905 [
+  label="go.uber.org/multierr"
+  color=black
+ ];
+ 906 [
+  label="go.uber.org/zap"
+  color=black
+ ];
+ 908 [
+  label="go.uber.org/zap/buffer"
+  color=black
+ ];
+ 909 [
+  label="go.uber.org/zap/internal/bufferpool"
+  color=black
+ ];
+ 910 [
+  label="go.uber.org/zap/internal/color"
+  color=black
+ ];
+ 911 [
+  label="go.uber.org/zap/internal/exit"
+  color=black
+ ];
+ 913 [
+  label="go.uber.org/zap/internal/ztest"
+  color=black
+ ];
+ 914 [
+  label="go.uber.org/zap/zapcore"
+  color=black
+ ];
+ 917 [
+  label="go.uber.org/zap/zaptest/observer"
+  color=black
+ ];
+ 1769 [
+  label="k8s.io/apimachinery/pkg/util/runtime"
+  color=black
+ ];
+ 1770 [
+  label="k8s.io/apimachinery/pkg/util/sets"
+  color=black
+ ];
+ 1778 [
+  label="k8s.io/apimachinery/pkg/util/wait"
+  color=black
+ ];
+ 2211 [
+  label="k8s.io/component-base/cli/flag"
+  color=black
+ ];
+ 2218 [
+  label="k8s.io/component-base/logs"
+  color=black
+ ];
+ 2251 [
+  label="k8s.io/klog"
+  color=black
+ ];
+
+ // Edge definitions.
+ 0 -> 892;
+ 0 -> 897;
+ 0 -> 2211;
+ 0 -> 2218;
+ 892 -> 897;
+ 899 -> 152;
+ 899 -> 860;
+ 902 -> 899;
+ 904 -> 899;
+ 904 -> 902;
+ 905 -> 899;
+ 905 -> 902;
+ 905 -> 904;
+ 906 -> 858;
+ 906 -> 899;
+ 906 -> 902;
+ 906 -> 904;
+ 906 -> 905;
+ 906 -> 909;
+ 906 -> 911;
+ 906 -> 913;
+ 906 -> 914;
+ 906 -> 917;
+ 908 -> 899;
+ 909 -> 908;
+ 910 -> 899;
+ 911 -> 899;
+ 914 -> 899;
+ 914 -> 902;
+ 914 -> 904;
+ 914 -> 905;
+ 914 -> 908;
+ 914 -> 909;
+ 914 -> 910;
+ 914 -> 911;
+ 914 -> 913;
+ 917 -> 899;
+ 917 -> 906;
+ 917 -> 914;
+ 1769 -> 2251;
+ 1778 -> 1769;
+ 2211 -> 897;
+ 2211 -> 1770;
+ 2211 -> 2251;
+ 2218 -> 897;
+ 2218 -> 1778;
+ 2218 -> 2251;
+}
